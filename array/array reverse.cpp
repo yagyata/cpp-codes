@@ -8,8 +8,8 @@ void reverse(int arr[], int n) // declaring the function which contains the proc
 	
 	while(start<=end) //while the index of start is less than index of end the following condition will be executed
 	{
-		swap(arr[start],arr[end]); //start and end element will be say swapped (if we keep swapping the first and last element the whole array will  
-		start++; //incrementing the start index                                                                                     //be reversed                                                                                                                     
+		swap(arr[start],arr[end]); //start and end element will be say swapped (if we keep swapping the first and last element the whole array will be reversed 
+		start++; //incrementing the start index                                                                                                                                                                                                        
 		end--;	//decrementing the end index
 	}	
 }
